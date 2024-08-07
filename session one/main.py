@@ -1,13 +1,14 @@
 import pygame
 import time
 import random
+
 pygame.font.init()
 
 WIDTH, HEIGHT = 1000, 800
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Dodge")
 
-BG = pygame.transform.scale(pygame.image.load("space.jpeg"), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("bg.jpeg"), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
