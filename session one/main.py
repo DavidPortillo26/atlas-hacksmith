@@ -1,7 +1,6 @@
 import pygame
 import time
 import random
-
 pygame.font.init()
 
 WIDTH, HEIGHT = 1000, 800
